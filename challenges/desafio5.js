@@ -1,4 +1,3 @@
-use("commerce")
 db.produtos.find({
     $or: [
         { curtidas: { $eq: 36 } },
