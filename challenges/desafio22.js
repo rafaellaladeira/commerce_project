@@ -9,7 +9,7 @@ db.produtos.updateOne({
     $inc: {
         "vendasPorDia.3": 60,
     },
-})
+});
 db.produtos.updateMany({
     tags: "bovino",
 }, {
